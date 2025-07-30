@@ -1,0 +1,95 @@
+.
+├── agents
+│   ├── README.md
+│   ├── ai_models
+│   ├── medical_ai
+│   ├── predictive_analytics
+│   ├── supply_chain_ai
+│   ├── util
+│   └── versioning
+├── config
+│   ├── README.md
+│   └── env
+│       └── secrets
+│           ├── dev
+│           ├── prod
+│           └── stage
+├── create_table.py
+├── dire_struct.txt
+├── dire_struct_v01
+├── docs
+│   └── README.md
+├── drop_table.py
+├── networking
+│   ├── README.md
+│   ├── gateway
+│   ├── load_balancer
+│   └── service_discovery
+├── orchestrator
+│   ├── README.md
+│   ├── apiserver
+│   │   └── developer_api.py
+│   ├── caliconetwork
+│   │   ├── calico_setup.py
+│   │   └── calicoctl
+│   ├── controller
+│   │   └── controller.py
+│   ├── core
+│   │   ├── container_client.py
+│   │   ├── container_interface.py
+│   │   ├── container_main.py
+│   │   ├── container_test.py
+│   │   └── containerd_wrapper.py
+│   ├── db
+│   │   ├── database_query.py
+│   │   └── init_db.py
+│   ├── init_db.py
+│   ├── models
+│   │   ├── core_models.py
+│   │   ├── models.py
+│   │   ├── support_models.py
+│   │   └── testtable.py
+│   ├── registry
+│   │   └── service_registry.py
+│   ├── scheduler
+│   │   └── oschedular.py
+│   ├── schema_model
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── events.py
+│   │   ├── mpods.py
+│   │   ├── node.py
+│   │   └── workloads.py
+│   └── utils
+├── orchestrator.db
+├── run_project.bat
+├── scripts
+│   ├── README.md
+│   ├── create_table.py
+│   ├── dire_struct.txt
+│   ├── drop_table.py
+│   ├── get_all.sh
+│   ├── populate_etcd.sh
+│   ├── run_project.bat
+│   └── testtable.py
+├── storage
+│   ├── README.md
+│   ├── postgres
+│   ├── redis
+│   ├── sqlite
+│   └── test_data
+├── tests
+│   ├── README.md
+│   ├── __init__.py
+│   ├── agents_tests
+│   ├── api_tests
+│   │   ├── __init__.py
+│   │   ├── test_api_gateway.ipynb
+│   │   └── testapigw.py
+│   ├── frontend_tests
+│   ├── load_tests
+│   ├── orchestrator_tests
+│   └── test_data
+└── testtable.py
+
+43 directories, 50 files
